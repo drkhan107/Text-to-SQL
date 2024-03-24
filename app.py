@@ -1,9 +1,10 @@
-from dotenv import load_dotenv
-load_dotenv() ## load all the environemnt variables
-
 import streamlit as st
 import os
 import sqlite3
+from dotenv import load_dotenv
+load_dotenv() ## load all the environemnt variables
+
+
 
 import google.generativeai as genai
 ## Configure Genai Key
